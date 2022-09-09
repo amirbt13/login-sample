@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    background-color: #f6f6f6;
+}
+
+.container {
+    width: 340px;
+    height: 700px;
+    background-color: rgb(222, 255, 255);
+    border-radius: 30px;
+    box-shadow: 18px 18px 20px rgb(149, 175, 175),
+    -18px -18px 15px #fff;
+}
+
+.logo {
+    background: url("./logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 15px auto;
+    box-shadow: 10px 10px 8px rgb(190, 190, 190),
+    0px 0px 8px rgb(195, 193, 193),
+    -8px -8px 8px #fff;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 30px 0 20px 0;
+}
+
+form {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.user, .password {
+    width: 80%;
+    border-radius: 22px;
+    padding: 10px 0 10px 42px;
+    box-shadow: 2px 2px 6px grey inset,
+    -4px -4px 15px rgb(243, 255, 255) inset;
+    margin-top: 25px;
+    
+}
+
+form input {
+    background: none;
+    width: 75%;
+    border: none;
+    padding: 8px 0 8px 14px;
+    outline: none;
+}
+
+.login-btn {
+    width: 80%;
+    padding: 10px 0;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: large;
+    background-color: rgb(247, 202, 3);
+    box-shadow: 4px 4px 6px silver,
+    -4px -4px 6px rgb(255, 255, 255);
+    transition: background-color .5s ease, box-shadow .3s ease;
+}
+
+.login-btn:hover {
+    background-color: rgb(237, 119, 180);
+    box-shadow: 7px 7px 7px rgb(188, 188, 188),
+    -6px -6px 8px rgb(228, 228, 228);
+}
+
+.links {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forgot {
+    color: #555;
+    padding-bottom: 2px;
+    border-bottom: 1px rgb(189, 189, 189) dashed;
+}
+
+.signup {
+    color: rgb(218, 110, 166);
+    font-size: large;
+    text-shadow: 2px 2px 4px silver;
+    margin-left: 3px;
+}
